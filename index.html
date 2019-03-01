@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HITSHIP</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/win.css">
+	</head>
+	<body>
+	
+	<div class="main">
+	<h1 class="main-heading">
+    <span class="main-heading-primary">HITSHIP</span>
+    <span class="main-heading-secondary">sink the ships!</span>
+	</h1>
+	</div>
+	
+	
+	<div id="spielBrett"></div>
+	<div id="popup"></div>
+	
+	<section id="navigation">
+
+		<p>Klicke auf die Map, um jedes Schiff zu versenken!</p>
+		<p>Es müssen 17 hit's (Treffer) gelandet werden um das Spiel zu schaffen</p>
+		<ul>
+				  <li>Carrier     - 5 hits</li>
+				  <li>Battleship  - 4 hits</li>
+				  <li>Destroyer   - 3 hits</li>
+				  <li>Submarine   - 3 hits</li>
+				  <li>Patrol Boat - 2 hits</li>
+		</ul>
+		<button id="mischen" class="btn">Start Game</button>
+		<button id="reset" class="btn">Restart</button>
+		<div id="infofeld">
+			<p id="torpedos"></p>
+			<p id="infos"></p>
+		</div>
+	
+	</section>
+	<script src="js/hitship.js" async></script>
+	</body>
+</html>
